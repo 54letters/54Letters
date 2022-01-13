@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tell your Tory MP - it's time for Boris Johnson to go.</title>
+  <meta name="description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tell your Tory MP - it's time for Boris Johnson to go.">
+  <meta property="og:description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
+  <meta property="og:image" content="https://54letters.netlify.app/img/meta.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta property="twitter:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tell your Tory MP - it's time for Boris Johnson to go.">
+  <meta name="twitter:description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
+  <meta name="twitter:image" content="https://54letters.netlify.app/img/meta.png">
+  <meta name="twitter:image" content="https://54letters.netlify.app/img/meta.png"></meta>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/jge8ulz.css">
+
+  <!-- CSS Link -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script src="js/html2canvas.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+
+  <div id="mpInfoBox">
+    <div id="mpInfoTop">
+      <div id="mpInfo">
+        <img id="logo" src="img/logo.png" align="right" />
+        <h1 id="letterHeading"><span id="mpNameBullet"></span></h1>
+        <h2 id="letterSubheading">Conservative MP for <span id="constituencyBullet"></span></h1>
+      </div>
+    </div>
+    <div id="letterText">
+      <p class="bolded" >Graham Brady MP</p>
+      <p class="bolded" >Chairman of the 1922 Committee</p>
+      <br />
+      <p>Dear Graham,</p>
+      <p>As MP for <span id="constituencyBullet2"></span>, I am writing to inform you that I have lost confidence in Boris Johnson as our party's leader, and as Prime Minister.</p>
+      <p>After admitting to misleading Parliament and breaking Covid-19 regulations then in force across the country, I believe he should resign his position with immediate effect.</p>
+      <p>Yours Sincerely,</p>
+      <p id ="overlay">Just sign here!</p>
+      <p class="bolded" id="mpNameBullet2"></p>
+      <p class="bolded" >Conservative MP for <span id="constituencyBullet3"></span></p>
+    </div>
+    <p class="bolded" id="explanation">Just 54 letters like this mean Boris Johnson will face a vote of confidence. Will your MP send theirs?</p>
+    <div id="graphicBox">
+      <button name="graphic button" id="graphicButton" data-html2canvas-ignore="true">Download as Graphic</button>
+    </div>
+    <div id="graphicOutput"></div>
+  </div>
+
+  <div id="splash">
+    <h1>Your Tory MP has the power to remove Boris Johnson from power</h1>
+    <h2>Enter your postcode to read the letter they can send to stop him clinging to power.</h2>
+
+  <div id="form">
+    <form name="postcode" id="postcode">
+      <p id="error"></p>
+      <div class="flex-container" id="socials">
+        <a id="fbLink" href="#" target="_blank"><div id="fbButton">Share on Facebook</div></a>
+        <a id="twtLink" href="#" target="_blank"><div id="twtButton">Share on Twitter</div></a>
+        <a id="waLink" href="#" target="_blank"><div id="waButton">Share on WhatsApp</div></a>
+      </div>
+      <label for="postcode">Your Postcode</label><br />
+      <input type="text" name="postcode" minlength="5" maxlength="8" required ><a href="#localData"><button name="submit" type="submit" id="button" form="postcode" value="Submit">Submit</button></a>
+    </form>
+    <h1 id="loading">Loading...</h1>
+  </div>
+  </div>
+
+
+</div>
+
+<p id="disclaimer">This site uses the UK Parliament API, documented <a href="https://members-api.parliament.uk/index.html" target="_blank">here</a>. All data is drawn from official Parliamentary sources.</p>
+
+<script src="js/script.js"></script>
+</body>
+</html>

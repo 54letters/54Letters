@@ -1,0 +1,365 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ff-market-web:
+ *   - http://typekit.com/eulas/0000000000000000773599f5
+ *   - http://typekit.com/eulas/0000000000000000773599f6
+ * freight-text-pro:
+ *   - http://typekit.com/eulas/000000000000000000012059
+ *   - http://typekit.com/eulas/00000000000000000001205a
+ *   - http://typekit.com/eulas/00000000000000000001205b
+ *   - http://typekit.com/eulas/00000000000000000001205c
+ *   - http://typekit.com/eulas/000000000000000077359fb7
+ *   - http://typekit.com/eulas/000000000000000077359fba
+ *   - http://typekit.com/eulas/000000000000000077359fce
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-01-13 18:48:38 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=jge8ulz&ht=tk&f=4774.4859.13464.13465.13466.13467.13468.13469.13474&a=92036542&app=typekit&e=css");
+
+@font-face {
+font-family:"ff-market-web";
+src:url("https://use.typekit.net/af/6b403f/0000000000000000773599f5/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/6b403f/0000000000000000773599f5/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/6b403f/0000000000000000773599f5/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-market-web";
+src:url("https://use.typekit.net/af/9ee3ad/0000000000000000773599f6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9ee3ad/0000000000000000773599f6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9ee3ad/0000000000000000773599f6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/ac6334/000000000000000000012059/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/ac6334/000000000000000000012059/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/ac6334/000000000000000000012059/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/5464d5/00000000000000000001205a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/5464d5/00000000000000000001205a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/5464d5/00000000000000000001205a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/04ec74/00000000000000000001205b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/04ec74/00000000000000000001205b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/04ec74/00000000000000000001205b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/89d02c/000000000000000077359fb7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/89d02c/000000000000000077359fb7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/89d02c/000000000000000077359fb7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/4ded66/000000000000000077359fba/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/4ded66/000000000000000077359fba/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/4ded66/000000000000000077359fba/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"freight-text-pro";
+src:url("https://use.typekit.net/af/80e9a7/000000000000000077359fce/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/80e9a7/000000000000000077359fce/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/80e9a7/000000000000000077359fce/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;
+}
+
+.tk-ff-market-web { font-family: "ff-market-web",sans-serif; }
+.tk-freight-text-pro { font-family: "freight-text-pro",serif; }
+
+#error {
+  color: #ffffff;
+}
+
+#disclaimer {
+  color: #ffffff;
+  font-size: 16px;
+  position: fixed;
+  bottom: -2%;
+  left: 0px;
+  text-align: center;
+  background-color: #083a59;
+  padding: 10px;
+  width: 100%;
+  height: 3%;
+  overflow: hidden;
+}
+
+#graphicOutput {
+  display: none;
+}
+
+#loading {
+  display: none;
+}
+
+#explanation {
+  display: none;
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+  background-size: auto 100%;
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1460px) {
+  body {
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background-size: auto 100%;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  #container {
+    flex-direction: row-reverse;
+    padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 1459px) {
+  body {
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background-size: auto 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  #container {
+    flex-direction: column;
+    padding: 2%;
+  }
+}
+
+#leftbox {
+  margin-bottom: 5%;
+}
+
+.opac{opacity: 1 !important;}
+
+#splash {
+  text-align: left;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 2%;
+  width: 600px;
+}
+
+#splash h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 1;}
+
+h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 1; color: #ffffff;}
+h2 { font-family: "freight-text-pro",serif; font-weight: 700; font-style: normal; font-size: 36px; line-height: 1; color: #ffffff;}
+
+#mpInfoTop h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 0.7; color: #ffffff;}
+#mpInfoTop h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 0.7; color: #ffffff;}
+
+.flex-child {
+  flex-wrap: wrap;
+}
+
+#postcode {
+
+}
+
+input {
+  font-family: "freight-text-pro",serif;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  border: 3px solid ##ffffff;
+  padding: 12px;
+  font-size: 24px;
+  width: 60%;
+  color: ##ffffff;
+}
+
+label { font-family: "freight-text-pro",serif;
+font-weight: 700;
+font-style: normal;
+        margin-bottom: 2%;
+        font-size: 24px;
+        text-align: left;
+        color: #ffffff;
+      }
+#postcode button { font-family: "freight-text-pro",serif;
+font-weight: 700;
+font-style: normal;
+        font-size: 24px;
+        background-color: #083a59;
+        color: #ffffff;
+        border: none;
+        padding: 12px;
+        border-right: 3px solid ##ffffff;
+        border-top: 3px solid ##ffffff;
+        border-bottom: 3px solid ##ffffff;
+      }
+
+p { font-family: "freight-text-pro",serif;
+  font-weight: 300;
+  font-style: normal;
+    font-size: 16px;
+  }
+
+a {
+  font-family: "freight-text-pro",serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #0087DC;
+  text-decoration: none;
+}
+
+#mpInfoBox {
+  display: none;
+  margin-left: 7%;
+  margin-bottom: 7%;
+  background-color: rgba(0, 135, 220);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-family: "freight-text-pro",serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  color: ##ffffff;
+  width: 600px;
+  height: 900px;
+  box-shadow: 10px 10px 0px rgba(0,0,0,0.3);
+}
+
+#logo {
+  position: inherit;
+  width: 60px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#mpInfoTop {
+  top: 0;
+  margin-top: -50px;
+}
+
+#letterHeading {
+  padding-top: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#letterSubheading {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+#letterText {
+  padding: 25px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  line-height: 1;
+  background-color: #fff5f5;
+}
+
+.bolded {
+  font-weight: 700;
+}
+
+#votingBox {
+  flex-direction: column;
+}
+
+th, td {
+  padding: 10px;
+}
+
+#graphicButton {
+  width: 100%;
+  min-width: 600px;
+}
+
+#graphicButton { font-family: "freight-text-pro",serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  background-color: #083a59;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-right: 3px solid ##ffffff;
+  border-left: 3px solid ##ffffff;
+  border-bottom: 3px solid ##ffffff;
+}
+
+#overlay {
+  font-family: "ff-market-web",sans-serif;
+  position: relative;
+  z-index: 1;
+  color: #e4003b;
+  font-size: 36px;
+}
+
+#mpInfo {
+  background-color: #083a59;
+}
+
+#mpName {
+  color: #ffda1f;
+}
+
+#voteString {
+  color: #98c8ff;
+}
+
+#socials {
+  color: white;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 100%;
+  text-align: center;
+  display: none;
+  flex-direction: row !important;
+}
+
+#socials a {
+  display: block;
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#twtLink {
+  background-color: #1DA1F2;
+  color: #ffffff;
+}
+
+#fbLink {
+  background-color: #4267B2;
+  color: #ffffff;
+}
+
+#waLink {
+  background-color: #25D366;
+  color: #ffffff;
+}
