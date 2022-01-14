@@ -19,7 +19,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#mpInfoBox"), {
     useCORS:true,
-    proxy: 'https://mpreportcard.github.io/54Letters/',
+    proxy: 'https://54letters.github.io/54Letters/',
     windowWidth: mpInfoBox.width,
     width: mpInfoBox.width,
     windowHeight: 875,
@@ -67,7 +67,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(constituencyString){
-  fetch(`https://mpreportcard.github.io/54Letters/js/constituencies.json`)
+  fetch(`https://54letters.github.io/54Letters/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
       console.log(data);
@@ -121,7 +121,7 @@ form.addEventListener("submit", e => {
               loading.style.display = "none";
               document.getElementById("explanation").style.display = "none";
               twtLink.setAttribute("href", `https://twitter.com/intent/tweet?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20here's%20the%20letter%20they%20need%20to%20sign%20%F0%9F%91%87&url=https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3D_tw`)
-              fbLink.setAttribute("href", `https://www.facebook.com/sharer/sharer.php?u=https://mpreportcard.github.io/54Letters?utm_source=facebook&utm_medium=social&utm_campaign=_fb`)
+              fbLink.setAttribute("href", `https://www.facebook.com/sharer/sharer.php?u=https://54letters.github.io/54Letters?utm_source=facebook&utm_medium=social&utm_campaign=_fb`)
               waLink.setAttribute("href", `https://api.whatsapp.com/send?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20here's%20the%20letter%20they%20need%20to%20sign%20%F0%9F%91%87https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3D_wa`)
               socials.style = "display: flex";
             }
