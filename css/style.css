@@ -113,7 +113,7 @@ font-display:auto;font-style:normal;font-weight:900;
 }
 
 body {
-  background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+  background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
   background-size: auto 100%;
   background-position: right;
   background-attachment: fixed;
@@ -122,7 +122,7 @@ body {
 
 @media only screen and (min-width: 1460px) {
   body {
-    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
     background-size: auto 100%;
     background-position: right;
     background-attachment: fixed;
@@ -136,7 +136,7 @@ body {
 
 @media only screen and (max-width: 1459px) {
   body {
-    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.netlify.app/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
     background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
