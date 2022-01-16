@@ -79,7 +79,7 @@ form.addEventListener("submit", e => {
         error.innerHTML = `Your constituency, ${constituencyString}, does not currently have an MP until an upcoming by-election.`;
       } else if (constituencyString == "Uxbridge and South Ruislip" {
         error.style.display = "block";
-        error.innerHTML = `Your MP in ${constituencyString} is Boris Johnson, who probably isn't going to demand his own resignation. Why not share with your friends who live elsewhere?`;
+        error.innerHTML = `<img src="img/garden.jpg" width ="600px" /><br />Your MP in ${constituencyString} is Boris Johnson, who's probably too busy partying to demand his own resignation. Why not share with your friends who live elsewhere?`;
         loading.style.display = "none";
         document.getElementById("explanation").style.display = "none";
         twtLink.setAttribute("href", `https://twitter.com/intent/tweet?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20here's%20the%20letter%20they%20need%20to%20sign%20%F0%9F%91%87&url=https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3D_tw`)
