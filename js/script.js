@@ -22,8 +22,8 @@ function generateGraphic() {
     proxy: 'https://54letters.github.io/54Letters/',
     windowWidth: mpInfoBox.width,
     width: mpInfoBox.width,
-    windowHeight: 875,
-    height: 875,
+    windowHeight: 910,
+    height: 910,
 
   }).then(canvas => {
       canvas.id = "graphic";
@@ -131,6 +131,7 @@ form.addEventListener("submit", e => {
             document.getElementById("mpNameBullet2").innerHTML = `${mpFullName}`;
             document.getElementById("constituencyBullet2").innerHTML = `${constituencyString}`;
             document.getElementById("constituencyBullet3").innerHTML = `${constituencyString}`;
+            document.getElementById("overlay").innerHTML = `Just sign here, ${mpFirstName}!`;
 
             let graphicButton = document.getElementById('graphicButton');
             graphicButton.addEventListener("click", generateGraphic);
