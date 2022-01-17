@@ -244,7 +244,7 @@ a {
   font-size: 24px;
   color: ##ffffff;
   width: 600px;
-  height: 900px;
+  height: 950px;
   box-shadow: 10px 10px 0px rgba(0,0,0,0.3);
 }
 
@@ -312,10 +312,21 @@ th, td {
 
 #overlay {
   font-family: "ff-market-web",sans-serif;
-  position: relative;
+  position: inherit;
+  right: 0;
   z-index: 1;
-  color: #e4003b;
-  font-size: 36px;
+  color: #083a59;
+  font-size: 24px;
+  padding: 10px;
+  width: 125px;
+  height: 75px;
+  background-color: #ffffe8;
+  transform: rotate(-3deg);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+hr {
+  border: 1px dotted #083a59;
 }
 
 #mpInfo {
