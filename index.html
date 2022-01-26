@@ -7,19 +7,19 @@
   <meta name="description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://mpreportcard.github.io/54Letters/">
+  <meta property="og:url" content="https://54letters.netlify.app">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Tell your Tory MP - it's time for Boris Johnson to go.">
   <meta property="og:description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
-  <meta property="og:image" content="https://mpreportcard.github.io/54Letters/img/meta.png">
+  <meta property="og:image" content="https://54letters.netlify.app/img/meta.png">
 
   <!-- Twitter Meta Tags -->
-  <meta property="twitter:url" content="https://mpreportcard.github.io/54Letters/">
+  <meta property="twitter:url" content="https://54letters.netlify.app">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tell your Tory MP - it's time for Boris Johnson to go.">
   <meta name="twitter:description" content="Your Tory MP has the power to remove Boris Johnson from power. Will they do it?">
-  <meta name="twitter:image" content="https://mpreportcard.github.io/54Letters/img/meta.png">
-  <meta name="twitter:image" content="https://mpreportcard.github.io/54Letters/img/meta.png"></meta>
+  <meta name="twitter:image" content="https://54letters.netlify.app/img/meta.png">
+  <meta name="twitter:image" content="https://54letters.netlify.app/img/meta.png"></meta>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,6 +36,14 @@
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D0QH0RY5L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6D0QH0RY5L');
+</script>
 
 <script src="js/html2canvas.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
@@ -46,27 +54,10 @@
 <div id="container">
 
   <div id="mpInfoBox">
-    <div id="mpInfoTop">
-      <div id="mpInfo">
-        <img id="logo" src="img/logo.png" align="right" />
-        <h1 id="letterHeading"><span id="mpNameBullet"></span></h1>
-        <h2 id="letterSubheading">Conservative MP for <span id="constituencyBullet"></span></h1>
-      </div>
-    </div>
     <div id="letterText">
-      <p class="bolded" >Graham Brady MP</p>
-      <p class="bolded" >Chairman of the 1922 Committee</p>
-      <br />
-      <p>Dear Graham,</p>
-      <p>As MP for <span id="constituencyBullet2"></span>, I am writing to inform you that I have lost confidence in Boris Johnson as our party's leader, and as Prime Minister.</p>
-      <p>After admitting to misleading Parliament and breaking Covid-19 regulations then in force across the country, I believe he should resign his position with immediate effect.</p>
-      <p>Yours Sincerely,</p>
-      <p id="overlay" align="right">Just sign here!</p>
-      <hr align="left" width="200px"/>
-      <p class="bolded" id="mpNameBullet2"></p>
-      <p class="bolded" >Conservative MP for <span id="constituencyBullet3"></span></p>
+      <img src="" id="mpPhoto" width = "150px" height = "150px"/>
+      <h2 id="letterSubheading"><span id="mpNameBullet"></span> MP,<br />the people of <span id="constituencyBullet"></span> are asking you: <br/><span class="bolded">call for Boris Johnson to <span class="highlight">resign.</span></span></h2>
     </div>
-    <p class="bolded" id="explanation">Just 54 letters like this mean Boris Johnson will face a vote of confidence. Will your MP send theirs?</p>
     <div id="graphicBox">
       <button name="graphic button" id="graphicButton" data-html2canvas-ignore="true">Download as Graphic</button>
     </div>
@@ -75,7 +66,7 @@
 
   <div id="splash">
     <h1>Your Tory MP has the power to remove Boris Johnson from power</h1>
-    <h2>Enter your postcode to read the letter they can send to stop him clinging to power.</h2>
+    <h2>Enter your postcode and generate a graphic asking them to send their letter to the 1922 Committee.</h2>
 
   <div id="form">
     <form name="postcode" id="postcode">
