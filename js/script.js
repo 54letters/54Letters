@@ -42,7 +42,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#mpInfoBox"), {
     useCORS:true,
-    proxy: 'https://54letters.netlify.app/',
+    proxy: 'https://54letters.github.io/54Letters/',
     windowWidth: mpInfoBox.width,
     width: mpInfoBox.width,
     windowHeight: mpInfoBox.height,
@@ -90,7 +90,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(constituencyString){
-  fetch(`https://54letters.netlify.app/js/constituencies.json`)
+  fetch(`https://54letters.github.io/54Letters/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
       console.log(data);
