@@ -113,7 +113,7 @@ font-display:auto;font-style:normal;font-weight:900;
 }
 
 body {
-  background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+  background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('http://127.0.0.1:8887/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
   background-size: auto 100%;
   background-position: right;
   background-attachment: fixed;
@@ -122,7 +122,7 @@ body {
 
 @media only screen and (min-width: 1460px) {
   body {
-    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('http://127.0.0.1:8887/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
     background-size: auto 100%;
     background-position: right;
     background-attachment: fixed;
@@ -136,7 +136,7 @@ body {
 
 @media only screen and (max-width: 1459px) {
   body {
-    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('https://54letters.github.io/54Letters/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
+    background: linear-gradient(0deg, rgba(0, 135, 220, 1), rgba(0, 135, 220, 0.7)), url('http://127.0.0.1:8887/img/boris-johnson-party-covid-19-downing-st-3e8d19feb4bbfbadf7b557788a27404b4b078c4c-s1600-c85.webp');
     background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
@@ -166,7 +166,7 @@ body {
 #splash h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 1;}
 
 h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 1; color: #ffffff;}
-h2 { font-family: "freight-text-pro",serif; font-weight: 700; font-style: normal; font-size: 36px; line-height: 1; color: #ffffff;}
+h2 { font-family: "freight-text-pro",serif; font-weight: 700; font-style: normal; font-size: 48px; line-height: 1; color: #ffffff;}
 
 #mpInfoTop h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 0.7; color: #ffffff;}
 #mpInfoTop h1 { font-family: "freight-text-pro",serif; font-weight: 700; font-size: 60px; line-height: 0.7; color: #ffffff;}
@@ -201,6 +201,7 @@ font-style: normal;
         text-align: left;
         color: #ffffff;
       }
+
 #postcode button { font-family: "freight-text-pro",serif;
 font-weight: 700;
 font-style: normal;
@@ -236,23 +237,15 @@ a {
   background-color: rgba(0, 135, 220);
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   padding-top: 25px;
   font-family: "freight-text-pro",serif;
   font-weight: 300;
   font-style: normal;
   font-size: 24px;
-  color: ##ffffff;
+  color: #ffffff;
   width: 600px;
-  height: 950px;
   box-shadow: 10px 10px 0px rgba(0,0,0,0.3);
-}
-
-#logo {
-  position: inherit;
-  width: 60px;
-  margin-right: 25px;
-  margin-top: 25px;
 }
 
 #mpInfoTop {
@@ -261,27 +254,38 @@ a {
 }
 
 #letterHeading {
-  padding-top: 75px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 25px;
 }
 
 #letterSubheading {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  color: #083a59;
+}
+
+.highlight {
+  background: #ffd900;
 }
 
 #letterText {
   padding: 25px;
-  margin-top: -25px;
   margin-bottom: -25px;
   line-height: 1;
   background-color: #fff5f5;
+  display: flex;
+  flex-direction: row !important;
+}
+
+#mpPhoto {
+  transform: rotate(3deg);
+  border: 5px #083a59 solid;
+  border-style: inset;
+  margin-top: 25px;
 }
 
 .bolded {
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 #votingBox {
