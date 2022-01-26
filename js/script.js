@@ -105,9 +105,9 @@ form.addEventListener("submit", e => {
         error.innerHTML = `<img src="img/garden.jpg" width ="600px" /><br />Your MP in ${constituencyString} is Boris Johnson, who's probably too busy partying to demand his own resignation. Why not share with your friends who live elsewhere?`;
         loading.style.display = "none";
         document.getElementById("explanation").style.display = "none";
-        twtLink.setAttribute("href", `https://twitter.com/intent/tweet?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20here's%20the%20letter%20they%20need%20to%20sign%20%F0%9F%91%87&url=https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3D_tw`)
+        twtLink.setAttribute("href", `https://twitter.com/intent/tweet?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20tell%20them%20it's%20time%20for%20him%20to%20resign%20%F0%9F%91%87&url=https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3D_tw`)
         fbLink.setAttribute("href", `https://www.facebook.com/sharer/sharer.php?u=https://54letters.github.io/54Letters?utm_source=facebook&utm_medium=social&utm_campaign=_fb`)
-        waLink.setAttribute("href", `https://api.whatsapp.com/send?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20here's%20the%20letter%20they%20need%20to%20sign%20%F0%9F%91%87https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3D_wa`)
+        waLink.setAttribute("href", `https://api.whatsapp.com/send?text=Your%20Tory%20MP%20has%20the%20power%20to%20remove%20Boris%20Johnson%20-%20tell%20them%20it's%20time%20for%20him%20to%20resign%20%F0%9F%91%87https%3A%2F%2F54letters.netlify.app%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3D_wa`)
         socials.style = "display: flex";
       } else if (constituencyString == "Altrincham and Sale West") {
         error.style.display = "block";
