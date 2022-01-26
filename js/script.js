@@ -15,15 +15,38 @@ function ShowMPInfo() {
   socials.style.display = "none";
 }
 
+function imageSrcToBase64(img) {
+  const isBase64 = /^data:image\/(png|jpeg);base64,/.test(img.src);
+  if (isBase64) {
+    return;
+  }
+  return fetch(img)
+    .then((res) => res.blob())
+    .then(
+      (blob) =>
+        new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onerror = reject;
+          reader.onload = () => {
+            resolve(reader.result);
+          };
+          reader.readAsDataURL(blob);
+        })
+    )
+    .then((dataURL) => {
+      img.src = dataURL;
+    });
+}
+
 function generateGraphic() {
 
   html2canvas(document.querySelector("#mpInfoBox"), {
     useCORS:true,
-    proxy: 'https://54letters.github.io/54Letters/',
+    proxy: 'https://54letters.netlify.app/',
     windowWidth: mpInfoBox.width,
     width: mpInfoBox.width,
-    windowHeight: 910,
-    height: 910,
+    windowHeight: mpInfoBox.height,
+    height: mpInfoBox.height,
 
   }).then(canvas => {
       canvas.id = "graphic";
@@ -67,7 +90,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(constituencyString){
-  fetch(`https://54letters.github.io/54Letters/js/constituencies.json`)
+  fetch(`https://54letters.netlify.app/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
       console.log(data);
@@ -111,6 +134,9 @@ form.addEventListener("submit", e => {
           .then(res => res.json())
           .then(parlData => {
             //console.log(parlData)
+            mpPhoto = parlData.items[0].value.thumbnailUrl;
+            imageSrcToBase64(mpPhoto);
+            document.getElementById('mpPhoto').src = mpPhoto
             party = parlData.items[0].value.latestParty.name;
             partyString = party;
             mpID = parlData.items[0].value.id;
@@ -120,7 +146,7 @@ form.addEventListener("submit", e => {
                   break;
                 default:
             }
-        
+
             if (mpLastName == "Miliband") {
               mpFirstName = "Ed";
               mpFullName = mpFirstName + " " + mpLastName;
@@ -128,17 +154,12 @@ form.addEventListener("submit", e => {
 
             document.getElementById("mpNameBullet").innerHTML = `${mpFullName}`;
             document.getElementById("constituencyBullet").innerHTML = `${constituencyString}`;
-            document.getElementById("mpNameBullet2").innerHTML = `${mpFullName}`;
-            document.getElementById("constituencyBullet2").innerHTML = `${constituencyString}`;
-            document.getElementById("constituencyBullet3").innerHTML = `${constituencyString}`;
-            document.getElementById("overlay").innerHTML = `Just sign here, ${mpFirstName}!`;
 
             let graphicButton = document.getElementById('graphicButton');
             graphicButton.addEventListener("click", generateGraphic);
 
             if (party == "Conservative") {
               ShowMPInfo();
-              document.getElementById("explanation").style.display = "block";
             } else {
               error.innerHTML = `Looks like you do not have a Conservative MP in ${constituencyString}. Consider sharing this page with your friends who do!`;
               error.style.display = "block";
