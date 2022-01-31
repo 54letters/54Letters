@@ -266,6 +266,7 @@ a {
 
 .highlight {
   background: #ffd900;
+  background-blend-mode: hard-light;
 }
 
 #letterText {
